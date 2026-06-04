@@ -32,13 +32,27 @@ html {
     display: inline-block;
     font-weight: lighter;
     margin: 0 15px;
-    color: black;
-    background-color: #3B7597;
-    padding: 10px 20px;
-    border-radius: 5px;
+    color: blue;
+    background-color: bisque;
+    
+    border-radius: 2px;
 }
 
 .profile-image {
     border-radius: 50%;
     margin-top: 20px;
+}
+
+#html{
+    position: static;
+}
+
+#body{
+    position: relative;
+}
+
+#menu{
+    position: relative;
+    top: -10px;
+
 }
