@@ -4,7 +4,13 @@ html{
     color: #000000;
     margin: 10px;
 }
+.logo-ish{
+    padding: 5px;
+    margin: 10px;
+    text-align: right;
+    position: relative;
 
+}
 .home-button{
     display: inline-flex;
     flex-direction: row;
@@ -14,14 +20,11 @@ html{
 
 
 
-.logo-ish{
-    padding: 5px;
-    margin: 10px;
-}
+
 
 .home-title{
     color: #55198B;
-    
+
     
 }
 
@@ -50,6 +53,7 @@ html{
     }
 
     .logo-ish{
+        position: sticky;
         width: 50%;
         height: auto;
         padding: 5px;
