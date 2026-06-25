@@ -1,56 +1,33 @@
 html{
     background-color: rgb(230, 204, 171);
     text-align: center;
+    color: #000000;
 }
 
-.home-title{
+.home-button{
     display: inline-flex;
-    text-decoration-line: none;
-}
-
-
-.menu-button{
-    display: inline-flex;
+    flex-direction: row;
     gap: 10px;
-    text-decoration-line: none;
+    
 }
 
+.logo-ish{
+    border: #000000 2px ;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px;
+}
 
+.first-surname{
+    font-variant-caps: all-small-caps;
+    color: rgba(18, 88, 18, 0.996)
+}
 
-@media (max-width: 1080px) {
+ .link{
+    text-decoration-line: none;
+ }
 
-    html{
-        background-color: rgb(230, 204, 171);
-        text-align: justify;
-    }
-
-    .menu-button{
+.menu{
     display: inline-flex;
-    flex-direction: column;
-    gap: 10px;
-    text-decoration-line: none;
-   
+    flex-direction: row;
+    gap: 10px; 
 }
-
-
-
-
-}
- /*
-@media (min-width: 768px) and (max-width: 1080px) {
-
-    html{
-        background-color: rgb(230, 204, 171);
-        text-align: center;
-    }
-
-    .menu-button{
-    display: inline-flex;
-    flex-direction: column;
-    gap: 10px;
-    text-decoration-line: none;
-    width: 100%;
-}
-
-}
-*/
