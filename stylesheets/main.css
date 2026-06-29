@@ -1,20 +1,30 @@
 html{
     background-color: #FFFCFF;
-    text-align: center;
     color: #000000;
-    margin: 10px;
+   
 }
+
 .logo-ish{
-    padding: 5px;
     margin: 10px;
     text-align: right;
     position: relative;
-
-}
-.home-button{
     display: inline-flex;
     flex-direction: row;
     gap: 10px;
+
+}
+
+
+.menu{
+    display: flex;
+    right: 50%;
+    margin: 5px;
+    text-align: right;
+
+
+}
+
+.menu-button{
     
 }
 
@@ -23,14 +33,14 @@ html{
 
 
 .home-title{
-    color: #55198B;
-
-    
+    color: #790e22;
+    text-transform: uppercase;
+    margin: 10px;
 }
 
 .first-surname{
     font-variant-caps: all-small-caps;
-    color: rgba(18, 88, 18, 0.996)
+    color: rgba(6, 54, 6, 0.996)
 }
 
  .link{
@@ -45,7 +55,7 @@ html{
 
 
 
-@media (max-width: 800px ){
+@media (max-width: 500px ){
     .menu{
         display: flex;
         flex-direction: column;
@@ -56,7 +66,15 @@ html{
         position: sticky;
         width: 50%;
         height: auto;
-        padding: 5px;
         margin: 10px;
     }
+}
+
+@media (max-width: 500px ){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+    }
+
 }
