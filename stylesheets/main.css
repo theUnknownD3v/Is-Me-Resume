@@ -1,33 +1,55 @@
 html{
-    background-color: #FFFCFF;
+    background-color: #bbe0ed;
     color: #000000;
    
+}
+
+#logo{
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: left;
 }
 
 .logo-ish{
     margin: 10px;
     text-align: right;
-    position: relative;
+    position: absolute;
     display: inline-flex;
     flex-direction: row;
-    gap: 10px;
 
 }
 
 
 .menu{
-    display: flex;
-    right: 50%;
-    margin: 5px;
-    text-align: right;
+   display: inline-flex;
+   margin: 10px;
+   position: absolute;
+    right: 0;
+
+
 
 
 }
 
-.menu-button{
-    
+.connectLogo{
+    color: #790e22;
+    text-transform: uppercase;
+    font-variant-caps: all-small-caps;
+    font-size: 0.7em;
+    margin: 10px;
 }
 
+.first-surname{
+    font-variant-caps: all-small-caps;
+    color: rgba(6, 54, 6, 0.996)
+}
+
+.last-surname{
+    font-variant-caps: all-small-caps;
+
+}
 
 
 
@@ -38,10 +60,6 @@ html{
     margin: 10px;
 }
 
-.first-surname{
-    font-variant-caps: all-small-caps;
-    color: rgba(6, 54, 6, 0.996)
-}
 
  .link{
     text-decoration-line: none;
